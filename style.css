@@ -1,0 +1,125 @@
+@importar url(' https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap' ;);
+
+:root {
+    --branco: branco;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sem serifa;
+    --roboto-mono: 'Roboto Mono', monoespaçado;
+}
+
+* {
+    peso da fonte: 400;
+}
+
+corpo {
+    cor: var(--branco);
+    cor de fundo: var(--cor-de-fundo);
+    família de fontes: var(--roboto);
+}
+
+.titulo-principal {
+    font-family: var(--roboto-mono);
+    tamanho da fonte: 32px;
+}
+
+.titulo-secundario {
+    tamanho da fonte: 24px;
+}
+
+.conteudo-titulo {
+    text-align: center;
+    margem superior: 80px;
+}
+
+.conteudo-senha {
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    preenchimento: 24px;
+    borda inferior: var sólido de 6px (--borda);
+}
+
+#campo-senha {
+    cor de fundo: var(--fundo-senha);
+    fronteira: nenhuma;
+    cor: var(--branco);
+    família de fontes: var(--roboto-mono);
+    tamanho da fonte: 40px;
+    largura: 70%;
+}
+
+#campo-senha:focus {
+    esboço: nenhum;
+}
+
+.conteudo {
+    largura máxima: 1200px;
+    margem: 0 automático;
+}
+
+.parametro {
+    cor de fundo: var(--fundo-texto);
+    borda: 2px var sólido (--borda);
+    margem superior: 32px;
+    preenchimento: 24px;
+}
+
+.parametro-titulo {
+    font-family: var(--roboto-mono);
+    tamanho da fonte: 28px;
+}
+
+.parametro-senha__titulo {
+    tamanho da fonte: 24px;
+}
+
+.parametro-coluna__senha {
+    display: flex;
+    direção flexível: coluna;
+    justificar-conteúdo: centro;
+}
+
+.parametro-senha {
+    largura: 50%;
+    margem: 0 automático;
+}
+
+.parametro-senha-botoes {
+    display: flex;
+    justificar-conteúdo: centro;
+}
+
+.parametro-senha__botao {
+    cor de fundo: var(--fundo-texto);
+    cor: var(--branco);
+    borda: 2px var sólido (--borda);
+    preenchimento: 24px;
+    tamanho da fonte: 24px;
+    cursor: ponteiro;
+}
+
+.parametro-senha__texto {
+    preenchimento: 24px;
+    borda superior: 2px var sólido (--borda);
+    borda inferior: 2px var sólido (--borda);
+    margem: 0;
+    tamanho da fonte: 24px;
+}
+
+rótulo {
+    tamanho da fonte: 20px;
+}
+
+. caixa de seleção {
+    largura: 20px;
+    altura: 20px;
+    cursor: ponteiro;
+}
+
+@media tela e (largura mínima: 768px) { .
+    parametro-coluna__senha {
+        flex-direction: linha;
+    }
+}
