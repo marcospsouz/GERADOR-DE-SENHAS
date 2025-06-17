@@ -131,6 +131,10 @@ cursor: pointer;
     width: 25%;
     background-color: #E71B32; 
 }
+.media{
+    background-color: #FAF408;
+    width: 50%;
+}
 .parametro-senha-textos{
     display: flex;
     justify-content: space-between;
