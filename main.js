@@ -42,7 +42,6 @@ for (i=0; i < checkbox.length;i++){
 
 
 
-
 geraSenha();
 
 function geraSenha(){
