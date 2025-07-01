@@ -68,3 +68,6 @@ console.log(alfabeto);
   }
   campoSenha.value = senha;
 }
+function classificaSenha(){
+
+}
